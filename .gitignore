@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
 
-# Precompiled Headers
-*.gch
-*.pch
+# gradle
+build
+.gradle
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# other
+eclipse
+run
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Files from Forge MDK
+forge*changelog.txt
